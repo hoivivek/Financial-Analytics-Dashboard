@@ -8,7 +8,7 @@ import requests
 
 # Page config
 st.set_page_config(
-    page_title="Financial Dashboard",
+    page_title="Financial Analytics Dashboard",
     page_icon=":material/analytics:",
     layout="wide"
 )
@@ -149,7 +149,7 @@ with st.sidebar:
                 st.error(f"Error loading file: {e}")
 
 # Main content
-st.title(":material/analytics: Financial Dashboard")
+st.title(":material/analytics: Financial Analytics Dashboard")
 
 # Check if data is loaded
 if st.session_state.df is not None and validate_dataframe(st.session_state.df):
