@@ -1,6 +1,6 @@
-# Financial Dashboard
+# Financial Analytics Dashboard
 
-> **TLDR:** A multi-source financial dashboard that visualizes data from yFinance, custom APIs, and CSV uploads with interactive charts and statistics.
+**A multi-source financial dashboard that visualizes data from yFinance, custom APIs, and CSV uploads with interactive charts and statistics.**
 
 ## Features
 
